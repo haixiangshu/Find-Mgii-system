@@ -1,0 +1,74 @@
+/home/haixiangshu/anaconda3/bin/python /home/haixiangshu/pycharm-professional-2023.1.4/pycharm-2023.1.4/plugins/python/helpers/pydev/pydevd.py --multiprocess --qt-support=auto --client 127.0.0.1 --port 42585 --file /home/haixiangshu/Desktop/project/find MGII.py
+Connected to pydev debugger (build 232.8660.197)
+/home/haixiangshu/anaconda3/lib/python3.11/site-packages/desispec/qproc/qextract.py:18: NumbaDeprecationWarning: The 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.
+  @numba.jit
+/home/haixiangshu/anaconda3/lib/python3.11/site-packages/desispec/trace_shifts.py:428: NumbaDeprecationWarning: The 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.
+  @numba.jit
+/home/haixiangshu/anaconda3/lib/python3.11/site-packages/desispec/image_model.py:27: NumbaDeprecationWarning: The 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.
+  @numba.jit
+/home/haixiangshu/anaconda3/lib/python3.11/site-packages/desispec/preproc.py:378: NumbaDeprecationWarning: The 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.
+  @numba.jit
+Filename: /home/haixiangshu/Documents/global/cfs/cdirs/desi/spectro/redux/guadalupe/healpix/main/dark/97/9738/coadd-main-dark-9738.fits
+No.    Name      Ver    Type      Cards   Dimensions   Format
+  0  PRIMARY       1 PrimaryHDU      60   ()
+  1  FIBERMAP      1 BinTableHDU    191   460R x 67C   [K, J, D, D, E, E, E, K, B, 3A, D, J, I, 8A, J, J, 4A, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, I, E, E, E, E, K, 2A, E, E, E, E, 1A, K, K, K, K, K, K, D, D, I, E, I, I, E, E, E, E, D, E, D, E, E]
+  2  EXP_FIBERMAP    1 BinTableHDU     64   917R x 26C   [K, J, D, J, J, D, J, D, I, J, K, J, J, E, E, E, D, D, K, D, D, D, D, D, D, D]
+  3  B_WAVELENGTH    1 ImageHDU        10   (2751,)   float64
+  4  B_FLUX        1 ImageHDU        11   (2751, 460)   float32
+  5  B_IVAR        1 ImageHDU        11   (2751, 460)   float32
+  6  B_MASK        1 ImageHDU        12   (2751, 460)   int32 (rescales to uint32)
+  7  B_RESOLUTION    1 ImageHDU        11   (2751, 11, 460)   float32
+  8  R_WAVELENGTH    1 ImageHDU        10   (2326,)   float64
+  9  R_FLUX        1 ImageHDU        11   (2326, 460)   float32
+ 10  R_IVAR        1 ImageHDU        11   (2326, 460)   float32
+ 11  R_MASK        1 ImageHDU        12   (2326, 460)   int32 (rescales to uint32)
+ 12  R_RESOLUTION    1 ImageHDU        11   (2326, 11, 460)   float32
+ 13  Z_WAVELENGTH    1 ImageHDU        10   (2881,)   float64
+ 14  Z_FLUX        1 ImageHDU        11   (2881, 460)   float32
+ 15  Z_IVAR        1 ImageHDU        11   (2881, 460)   float32
+ 16  Z_MASK        1 ImageHDU        12   (2881, 460)   int32 (rescales to uint32)
+ 17  Z_RESOLUTION    1 ImageHDU        11   (2881, 11, 460)   float32
+ 18  SCORES        1 BinTableHDU     96   460R x 42C   [K, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E, E]
+     TARGETID     COADD_FIBERSTATUS ... STD_FIBER_DEC MEAN_PSF_TO_FIBER_SPECFLUX
+----------------- ----------------- ... ------------- --------------------------
+39632936382761088                 0 ...  3.679701e-05                  0.7786127
+39632936382761958                 0 ...     0.0354083                      0.789
+39632936382760822                 0 ...     0.0355269                      0.789
+39632936382761552                 0 ...   0.014146228                  0.7924841
+39632936382760841                 0 ...   0.014204604                  0.7753782
+39632946524589717                 0 ...   0.101770274                  0.7373166
+        -12408518              1026 ...   0.007110047                 0.80536497
+39632941462063102                 0 ...   0.065321796                 0.75234693
+39632946524587358                 0 ...    0.08024169                  0.7515371
+        -12408520                 2 ...   0.021086363                        0.0
+              ...               ... ...           ...                        ...
+39632936382762345                 0 ...   0.042375743                      0.789
+39632941462061599                 0 ...   0.043956585                      0.789
+39632946524589147                 0 ...   0.058781605                  0.7828901
+39632936382761367                 0 ...    0.04971673                 0.74895614
+39632936382760938                 0 ...   0.007050452                      0.789
+39632946528780451                 0 ...     0.0655629                      0.789
+39632941462063358                 0 ...    0.07251009                  0.7810245
+        -12408485              1026 ...   0.028410964                  0.7998678
+39632931286679835                 0 ...   0.028154798                      0.789
+39632936382760153                 0 ...    0.07849757                      0.789
+39632941462063779                 0 ...   0.115518376                 0.73792917
+Length = 40 rows
+z= 0.7504052276442038
+/home/haixiangshu/Desktop/project/find MGII.py:206: RuntimeWarning: divide by zero encountered in divide
+  noise_in = [1 / ivar_b ** 0.5, 1 / ivar_r ** 0.5, 1 / ivar_z ** 0.5]
+/home/haixiangshu/Desktop/project/find MGII.py:292: RuntimeWarning: invalid value encountered in divide
+  normalized_flux = flux1/convolve
+/home/haixiangshu/Desktop/project/find MGII.py:313: RuntimeWarning: divide by zero encountered in divide
+  noise = 1 / noise ** 0.5
+/home/haixiangshu/Desktop/project/find MGII.py:317: RuntimeWarning: invalid value encountered in scalar divide
+  signal = np.absolute((flux[ii]/continuum_flux[ii])-1)
+/home/haixiangshu/Desktop/project/find MGII.py:318: RuntimeWarning: divide by zero encountered in scalar divide
+  SNR = signal/noise[ii]
+/home/haixiangshu/anaconda3/lib/python3.11/site-packages/scipy/optimize/_minpack_py.py:906: OptimizeWarning: Covariance of the parameters could not be estimated
+  warnings.warn('Covariance of the parameters could not be estimated',
+[[0, 28], [28, 55], [55, 73], [73, 89], [89, 102], [102, 114], [114, 128], [128, 137], [137, 146], [146, 154]]
+equw= 0.4870476456087776
+zmgii= 0.30519881882375044
+
+Process finished with exit code 0
