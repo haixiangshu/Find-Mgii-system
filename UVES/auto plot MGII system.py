@@ -324,7 +324,7 @@ def calcuequivalent_width(xfinaldata, parameterlist):
     equw = sum/1
     # continuum are already normalized to 1
     return equw
-nset = set
+nset = set + 1
 zmgii, zmgiicorrection1, zmgiicorrection2 = calcuZ(parameterlist[6*(nset-1):6*nset])
 equw = calcuequivalent_width(xfinaldata[cal1:cal2], parameterlist[6*(nset-1):6*nset])
 print("equw=", equw)
